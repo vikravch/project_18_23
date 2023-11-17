@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import WeatherPage from "./modules/weather/presentation/pages/WeatherPage";
+import {Route, Routes} from "react-router";
+import NavigationRow from "./general/components/navigation/NavigationRow";
+import NewsletterSubscribe from "./general/components/newsletter_subscribe/NewsletterSubscribe";
+import Footer from "./general/components/footer/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div style={{
+            display: "flex",
+            flexDirection: "column",
+            minHeight: "100vh"
+        }}>
+            <NavigationRow/>
+            <main style={{
+                flex: 1
+            }}>
+                <Routes>
+                    <Route path="/" element={<WeatherPage/>}/>
+                    <Route element={<WeatherPage/>}/>{/*default route*/}
+                </Routes>
+            </main>
+            <NewsletterSubscribe/>
+            <Footer/>
+        </div>
+
+    );
 }
 
 export default App;

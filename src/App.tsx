@@ -5,6 +5,7 @@ import {Route, Routes} from "react-router";
 import NavigationRow from "./general/components/navigation/NavigationRow";
 import NewsletterSubscribe from "./general/components/newsletter_subscribe/NewsletterSubscribe";
 import Footer from "./general/components/footer/Footer";
+import HomePage from "./modules/home_page/presentation/page/HomePage";
 
 function App() {
     return (
@@ -18,7 +19,7 @@ function App() {
                 flex: 1
             }}>
                 <Routes>
-                    <Route path="/" element={<WeatherPage/>}/>
+                    <Route path="/" element={<HomePage/>}/>
                     <Route element={<WeatherPage/>}/>{/*default route*/}
                 </Routes>
             </main>

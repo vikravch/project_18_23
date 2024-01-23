@@ -20,7 +20,7 @@ function App() {
             }}>
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
-                    <Route element={<WeatherPage/>}/>
+                    <Route path="/weather" element={<WeatherPage/>}/>
                 </Routes>
             </main>
             <NewsletterSubscribe/>

@@ -8,7 +8,6 @@ import ElementsSliderArrows from "../elements-slider-arrows/ElementsSliderArrows
 const ElementsSliderMain = () => {
     return (
         <div className={styles.item}>
-            <ElementsSliderArrows/>
             <ElementsSliderMainItem/>
         </div>
     );

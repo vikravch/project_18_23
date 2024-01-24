@@ -1,0 +1,10 @@
+.base{
+    width: 500px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 24px;
+}

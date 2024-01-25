@@ -1,0 +1,12 @@
+.base{
+    display: flex;
+    width: 95px;
+    height: 28px;
+    padding: 12px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: #F5F5F5;
+}

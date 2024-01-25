@@ -1,0 +1,22 @@
+.base{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+}
+.offer{
+    width: 360px;
+    color: #343839;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}

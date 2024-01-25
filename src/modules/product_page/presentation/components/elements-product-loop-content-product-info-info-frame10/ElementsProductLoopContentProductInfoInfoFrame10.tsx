@@ -6,7 +6,7 @@ const ElementsProductLoopContentProductInfoInfoFrame10 = () => {
     return (
         <div className={styles.base}>
             <ElementsFrame10Rating/>
-            <p className={styles.text}>11 Reviews</p>
+            <div className={styles.text}>11 Reviews</div>
             </div>
     );
 };

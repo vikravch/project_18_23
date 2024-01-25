@@ -4,7 +4,7 @@ import styles from './ElementsSliderMainItemBadge1.module.css';
 const ElementsSliderMainItemBadge1 = () => {
     return (
         <div className={styles.badge}>
-            <p className={styles.text}>NEW</p>
+            <div className={styles.text}>NEW</div>
         </div>
     );
 };

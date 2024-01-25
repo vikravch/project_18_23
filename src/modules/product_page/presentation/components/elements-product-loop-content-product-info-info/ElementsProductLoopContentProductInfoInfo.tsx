@@ -9,9 +9,9 @@ const ElementsProductLoopContentProductInfoInfo = () => {
     return (
         <div className={styles.base}>
             <ElementsProductLoopContentProductInfoInfoFrame10/>
-            <p className={styles.title}>Tray Table</p>
-            <p className={styles.text}>Buy one or buy a few and make every space where you sit more convenient. Light
-                and easy to move around with removable tray top, handy for serving snacks.</p>
+            <div className={styles.title}>Tray Table</div>
+            <div className={styles.text}>Buy one or buy a few and make every space where you sit more convenient. Light
+                and easy to move around with removable tray top, handy for serving snacks.</div>
             <ElementsProductLoopContentProductInfoInfoPrice/>
         </div>
     );

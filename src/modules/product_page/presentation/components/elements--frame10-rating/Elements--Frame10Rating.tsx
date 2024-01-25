@@ -10,7 +10,7 @@ const ElementsFrame10Rating = () => {
             <ElementsFrame10RatingStar/>
             <ElementsFrame10RatingStar/>
             <ElementsFrame10RatingStar/>
-            </div>
+        </div>
     );
 };
 

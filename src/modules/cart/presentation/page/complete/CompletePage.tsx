@@ -3,14 +3,14 @@ import styles from './complete.module.css';
 import order1 from '../img/1.png';
 import order2 from '../img/2.jpg';
 import order3 from '../img/3.jpg';
-import circle from '../img/circle_3.png';
+import circle_3 from '../img/circle_3.png';
 import circle_green from '../img/circle_green.png';
 
 function CompletePage() {
     return (
         <div className={styles.main}>
 
-            <p className={styles.back}> back to home</p>
+            <p className={styles.back}>&#60; back to home</p>
             <p className={styles.complete}>Complete!</p>
 
             <div className={styles.steps}>
@@ -24,8 +24,8 @@ function CompletePage() {
                     <p className={styles.step_name}>Checkout details</p><br/>
                 </div>
 
-                <div className={styles.step_complete}>
-                    <img className={styles.img_circle} src={circle}/>
+                <div className={styles.step_active}>
+                    <img className={styles.img_circle} src={circle_3}/>
                     <p className={styles.step_name}>Order complete</p><br/>
                 </div>
 

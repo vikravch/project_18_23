@@ -1,0 +1,46 @@
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navmenu {
+    width: 20%;
+    border-right: 1px solid #000;
+}
+
+.navmenu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navmenu ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.account_details {
+    width: 75%;
+    padding: 20px;
+}
+
+.account-details form {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-details form label {
+    margin-bottom: 10px;
+}
+
+.account-details form input {
+    margin-bottom: 20px;
+}
+
+.account-details form button {
+    align-self: flex-end;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

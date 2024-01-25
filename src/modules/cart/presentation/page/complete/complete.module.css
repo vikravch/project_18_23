@@ -38,7 +38,7 @@
     padding: 10px 0;
 }
 
-.step_complete {
+.step_active {
     display: flex;
     flex-direction: row;
     margin: 0;
@@ -65,7 +65,7 @@
 
 .info_box {
     margin: 0 auto;
-    margin-top:  20px;
+    margin-top: 20px;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -165,19 +165,14 @@
 
     .step_green {
         display: flex;
+        width: 12%;
     }
 
-    .step_complete {
-        width: 18%;
+    .step_active {
+        width: 12%;
         padding: 10px 0;
         margin: 5px 30px;
 
-    }
-
-    .info_box {
-        align-items: center;
-        padding-top: 5vh;
-        width: 40%;
     }
 
     .steps {
@@ -186,6 +181,13 @@
         align-items: center;
         justify-content: center;
     }
+
+    .info_box {
+        align-items: center;
+        padding-top: 5vh;
+        width: 40%;
+    }
+
 
     .info_box {
         align-items: center;

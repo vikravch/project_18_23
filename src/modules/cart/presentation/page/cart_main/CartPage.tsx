@@ -84,7 +84,7 @@ function CartPage() {
 
                 <div className={styles.cart_item}>
                     <div className={styles.product_image}>
-                        <img className={styles.img} src={product1}/>
+                        <img className={styles.img} src={product2}/>
                     </div>
                     <div className={styles.product_info}>
                         <div className={styles.product_info_left}>
@@ -105,7 +105,7 @@ function CartPage() {
                 </div>
                 <div className={styles.cart_item}>
                     <div className={styles.product_image}>
-                        <img className={styles.img} src={product1}/>
+                        <img className={styles.img} src={product3}/>
                     </div>
                     <div className={styles.product_info}>
                         <div className={styles.product_info_left}>

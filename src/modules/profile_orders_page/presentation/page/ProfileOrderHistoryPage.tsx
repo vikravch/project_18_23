@@ -1,18 +1,17 @@
 import React from 'react';
-import style from './profilePage.module.css'
+import style from "./profileOrderHistoryPage.module.css";
 import ProfileHeader from "../../../../general/components/profile/profileHeader/ProfileHeader";
 import ProfileNav from "../../../../general/components/profile/profileNav/ProfileNav";
-import ProfileDetail from "../../../../general/components/profile/profileDetail/ProfileDetail";
-import ProfileAddress from "../../../../general/components/profile/profileAddress/ProfileAddress";
+import ProfileOrdersHistory from "../../../../general/components/profile/profileOrdersHistory/ProfileOrdersHistory";
 
-const ProfilePage = () => {
+const ProfileOrderHistoryPage = () => {
     return (
         <div className={style.profile_page_wrapper}>
             <ProfileHeader/>
             <ProfileNav/>
-            <ProfileAddress/>
+            <ProfileOrdersHistory/>
         </div>
     );
 };
 
-export default ProfilePage;
+export default ProfileOrderHistoryPage;

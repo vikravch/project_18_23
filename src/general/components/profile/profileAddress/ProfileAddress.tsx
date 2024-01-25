@@ -9,7 +9,7 @@ const ProfileAddress = () => {
             <div className={style.address_container}>
                 <div className={style.address_title}>
                     <span>Billing Address</span>
-                    <img className={style.address_edit_btn} src={'./images/profile/edit_button.svg'} alt={'Edit button'}/>
+                    <img className={style.address_edit_btn} src={'/images/profile/edit_button.svg'} alt={'Edit button'}/>
                 </div>
                 <div className={style.address_data_container}>
                     <p className={style.address_data}>Sofia Havertz</p>
@@ -21,7 +21,7 @@ const ProfileAddress = () => {
             <div className={style.address_container}>
                 <div className={style.address_title}>
                     <span>Shipping Address</span>
-                    <img className={style.address_edit_btn} src={'./images/profile/edit_button.svg'} alt={'Edit button'}/>
+                    <img className={style.address_edit_btn} src={'/images/profile/edit_button.svg'} alt={'Edit button'}/>
                 </div>
                 <div className={style.address_data_container}>
                     <p className={style.address_data}>Sofia Havertz</p>

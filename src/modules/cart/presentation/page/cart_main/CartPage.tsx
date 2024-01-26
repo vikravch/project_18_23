@@ -9,16 +9,18 @@ import product3 from '../img/3.jpg';
 import remove from '../img/remove.png';
 import minus from '../img/minus.png';
 import plus from '../img/plus.png';
+import percent from '../img/percent.png';
 
 
 function CartPage() {
     return (
-        <div className={styles.main}>
+        <div className={styles.main_1}>
 
             {/*Header*/}
 
-            <p className={styles.back}>&#60; back to home</p>
-            <p className={styles.page_header}>Cart</p>
+                <p className={styles.back}>&#60; back to home</p>
+                <p className={styles.page_header}>Cart</p>
+
 
             <div className={styles.steps}>
 
@@ -123,7 +125,50 @@ function CartPage() {
                         </div>
                     </div>
                 </div>
+
             </div>
+
+
+
+            {/*BlockCoupon*/}
+
+            <div className={styles.coupon_form}>
+
+                    <p className={styles.title_1}>Have a coupon?</p>
+                    <p className={styles.title_2}>Add your code for an instant cart discount</p>
+                <div className={styles.form_input}>
+                    <div className={styles.icon_input}><img className={styles.percent} src={percent}/>
+                        <input className={styles.input} value={'Coupon Code'}/></div>
+                    <p className={styles.apply}>Apply</p>
+                </div>
+
+            </div>
+
+
+            {/*Cart summary*/}
+
+            <div className={styles.cart_summary}>
+                <form className={styles.summary_form}>
+                    <p>Cart summary</p>
+                    <div className={styles.shipping}>
+                      <div><input className={styles.radio} name='summary' type='radio' value='free'/>  Free shipping</div>
+                        <div className={styles.free_data}>$0.00</div>
+                    </div>
+                    <div className={styles.shipping}>
+                        <div> <input className={styles.radio} name='summary' type='radio' value='express'/>  Express shipping</div>
+                        <div className={styles.free_data}>+$15.00</div>
+                    </div>
+                    <div className={styles.shipping}>
+                       <div><input className={styles.radio} name='summary' type='radio' value='pick_up'/>  Pick up</div>
+                        <div className={styles.free_data}>%21.00</div>
+                    </div>
+
+                </form>
+
+            </div>
+
+
+
 
         </div>
 

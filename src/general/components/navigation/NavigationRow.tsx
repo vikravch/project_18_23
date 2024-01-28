@@ -6,7 +6,7 @@ function NavigationRow() {
             style={{
                 width: "100%",
                 height: "50px",
-                backgroundColor: "dimgray"
+                backgroundColor: "white"
                 }}
         ></div>
     );

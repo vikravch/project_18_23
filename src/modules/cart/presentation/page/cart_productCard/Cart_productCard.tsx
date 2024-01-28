@@ -55,7 +55,6 @@ function CartProductCard() {
                     </div>
                 </div>
 
-
                 <div className={styles.cart_item}>
                     <div className={styles.product_image}>
                         <img className={styles.img} src={product2} alt={'product'}/>

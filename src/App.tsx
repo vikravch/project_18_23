@@ -23,10 +23,9 @@ function App() {
             }}>
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
-                    <Route element={<WeatherPage/>}/>
                     <Route element={<CartPage/>} path="/cart"/>
                     <Route element={<CompletePage/>} path={"/cart/complete"}/>
-
+                    <Route path="/weather" element={<WeatherPage/>}/>
                 </Routes>
             </main>
             <NewsletterSubscribe/>

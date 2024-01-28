@@ -1,0 +1,26 @@
+.base{
+    display: flex;
+    width: 508px;
+    align-items: center;
+    gap: 12px;
+}
+.price{
+    color: #121212;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: -0.6px;
+}
+.sale{
+    color: #6C7275;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    text-decoration-line: line-through;
+}

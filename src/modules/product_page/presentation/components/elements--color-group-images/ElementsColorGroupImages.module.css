@@ -1,0 +1,10 @@
+.base{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.img{
+    width: 72px;
+    height: 72px;
+    flex-shrink: 0;
+}

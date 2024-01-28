@@ -6,6 +6,7 @@ import NavigationRow from "./general/components/navigation/NavigationRow";
 import NewsletterSubscribe from "./general/components/newsletter_subscribe/NewsletterSubscribe";
 import Footer from "./general/components/footer/Footer";
 import HomePage from "./modules/home_page/presentation/page/HomePage";
+import Product from "./modules/product_page/presentation/components/Product";
 import ShopPage from "./modules/category/presentation/page/ShopPage";
 import Blog from "./modules/blog/page/Blog";
 import Article from "./modules/blog/presentation/Article/Article";
@@ -30,6 +31,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     <Route element={<WeatherPage/>}/>
+                    <Route path={"/product"} element={<Product/>}/>
                     <Route element={<ShopPage/>} path="/shop"/>
                     <Route element={<Blog/>} path="/blog/"/>
                     <Route element={<CartPage/>} path="/cart"/>

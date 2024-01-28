@@ -12,7 +12,10 @@ function App() {
         <div style={{
             display: "flex",
             flexDirection: "column",
-            minHeight: "100vh"
+            minHeight: "100vh",
+            maxWidth: "1440px",
+            margin: "0px auto",
+            width: "100%"
         }}>
             <NavigationRow/>
             <main style={{

@@ -33,7 +33,7 @@ function CartProductCard() {
                             <div className={styles.quantity}>
                                 <img className={styles.button_quantity} src={minus} alt={'minus'}/>
                                 <p className={styles.product_count}>2</p>
-                                <img className={styles.button_quantity} src={plus}/>
+                                <img className={styles.button_quantity} src={plus} alt={'plus'}/>
                             </div>
                             <div className={styles.remove_desk}>
                                 <img className={styles.button_remove_desk} src={remove} alt={'remove'}/>

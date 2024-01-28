@@ -1,36 +1,29 @@
 import React from 'react';
 import style from './profileAddres.module.css';
+import {AddressType} from "../../../../utils/fake_data";
+import {getAddresses} from "../../../../utils/getData";
+
 
 const ProfileAddress = () => {
+    const data = getAddresses();
+
     return (
         <div className={style.wrapper}>
             <span className={style.content_name}>Address</span>
-
-            <div className={style.address_container}>
-                <div className={style.address_title}>
-                    <span>Billing Address</span>
-                    <img className={style.address_edit_btn} src={'/images/profile/edit_button.svg'} alt={'Edit button'}/>
+            {data.map((item: AddressType, index:number) =>
+                <div key={index} className={style.address_container}>
+                    <div className={style.address_title}>
+                        <span>{item.addressTitle}</span>
+                        <img className={style.address_edit_btn} src={'/images/profile/edit_button.svg'}
+                             alt={'Edit button'}/>
+                    </div>
+                    <div className={style.address_data_container}>
+                        <p className={style.address_data}>{item.name}</p>
+                        <p className={style.address_data}>{item.phone}</p>
+                        <p className={style.address_data}>{item.address}</p>
+                    </div>
                 </div>
-                <div className={style.address_data_container}>
-                    <p className={style.address_data}>Sofia Havertz</p>
-                    <p className={style.address_data}>(+1) 234 567 890</p>
-                    <p className={style.address_data}>345 Long Island, NewYork, United States</p>
-                </div>
-            </div>
-
-            <div className={style.address_container}>
-                <div className={style.address_title}>
-                    <span>Shipping Address</span>
-                    <img className={style.address_edit_btn} src={'/images/profile/edit_button.svg'} alt={'Edit button'}/>
-                </div>
-                <div className={style.address_data_container}>
-                    <p className={style.address_data}>Sofia Havertz</p>
-                    <p className={style.address_data}>(+1) 234 567 890</p>
-                    <p className={style.address_data}>345 Long Island, NewYork, United States</p>
-                </div>
-
-            </div>
-
+            )}
         </div>
     );
 };

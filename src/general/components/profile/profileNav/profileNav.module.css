@@ -100,6 +100,18 @@
         line-height: 26px;
         padding: 10px 0;
     }
+    .desktop_nav_item_active
+    {
+        width: 100%;
+        color: #6C7275;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter, serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+        padding: 10px 0;
+    }
     .desktop_nav_item:hover
     {
         cursor: pointer;

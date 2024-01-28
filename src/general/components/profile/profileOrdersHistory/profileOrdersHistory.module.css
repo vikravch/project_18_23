@@ -1,10 +1,6 @@
 .wrapper {
     box-sizing: border-box;
-    /*display: flex;*/
     padding: 40px 32px 80px 16px;
-    /*flex-direction: column;*/
-    /*align-items: center;*/
-    /*gap: 0;*/
     width: 375px;
 }
 
@@ -12,7 +8,7 @@
     box-sizing: border-box;
     width: 100%;
     display: flex;
-    padding: 16px 0px;
+    padding: 0;
     flex-direction: column;
     align-items: flex-start;
     gap: 0
@@ -47,7 +43,6 @@
 }
 .content_name
 {
-    padding-bottom: 40px;
     color: #000;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inter, serif;
@@ -96,10 +91,9 @@
     .orders_wrapper_desktop
     {
         display: flex;
-        /*padding: 0px 72px;*/
         flex-direction: column;
         align-items: flex-start;
-        gap: 40px;
+        gap: 0;
     }
     .order_container
     {
@@ -111,7 +105,7 @@
     {
         flex-direction: row;
         width: 707px;
-        padding: 24px 0;
+        padding: 0;
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid #E8ECEF;
@@ -135,9 +129,9 @@
         width: 130px;
     }
 
-
     .content_name
     {
         padding: 0;
+        margin-bottom: 40px;
     }
 }

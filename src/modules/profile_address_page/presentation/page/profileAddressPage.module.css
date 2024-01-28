@@ -1,6 +1,5 @@
 
 .profile_page_wrapper{
-    border: 1px red;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

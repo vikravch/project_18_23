@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './profileNav.module.css';
 import {useLocation, useNavigate} from "react-router";
-import {selectIdValue} from "@reduxjs/toolkit/dist/entities/utils";
 const ProfileNav = () => {
     const navigation = useNavigate();
     const location= useLocation().pathname;
@@ -28,13 +27,13 @@ const ProfileNav = () => {
 
             <div className={style.desktop_nav}>
                 <div className={style.div}>
-                    <span className={style.desktop_nav_item} onClick={()=>navigation('/profile')}>Account</span>
+                    <span className={location===pathArr[0]?style.desktop_nav_item_active:style.desktop_nav_item} onClick={()=>navigation(pathArr[0])}>Account</span>
                 </div>
                 <div className={style.div}>
-                    <span className={style.desktop_nav_item} onClick={()=>navigation('/profile/address')}>Address</span>
+                    <span className={location===pathArr[1]?style.desktop_nav_item_active:style.desktop_nav_item} onClick={()=>navigation(pathArr[1])}>Address</span>
                 </div>
                 <div className={style.div}>
-                    <span className={style.desktop_nav_item} onClick={()=>navigation('/profile/orders')}>Orders</span>
+                    <span className={location===pathArr[2]?style.desktop_nav_item_active:style.desktop_nav_item} onClick={()=>navigation(pathArr[2])}>Orders</span>
                 </div>
                 <div className={style.div}>
                     <span className={style.desktop_nav_item}>WishList</span>

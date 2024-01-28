@@ -6,9 +6,12 @@ import NavigationRow from "./general/components/navigation/NavigationRow";
 import NewsletterSubscribe from "./general/components/newsletter_subscribe/NewsletterSubscribe";
 import Footer from "./general/components/footer/Footer";
 import HomePage from "./modules/home_page/presentation/page/HomePage";
+import ShopPage from "./modules/category/presentation/page/ShopPage";
+import Blog from "./modules/blog/page/Blog";
+import Article from "./modules/blog/presentation/Article/Article";
 import CartPage from "./modules/cart/presentation/page/cart_main/CartPage";
 import CompletePage from "./modules/cart/presentation/page/complete/CompletePage";
-
+import CheckoutPage from "./modules/cart/presentation/page/checkout/CheckoutPage";
 
 function App() {
     return (
@@ -23,6 +26,9 @@ function App() {
             }}>
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
+                    <Route element={<WeatherPage/>}/>
+                    <Route element={<ShopPage/>} path="/shop"/>
+                    <Route element={<Blog/>} path="/blog/"/>
                     <Route element={<CartPage/>} path="/cart"/>
                     <Route element={<CompletePage/>} path={"/cart/complete"}/>
                     <Route path="/weather" element={<WeatherPage/>}/>

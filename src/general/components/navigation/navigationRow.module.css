@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Space+Grotesk:wght@500&display=swap');
+
+.navWrapper {
+        width: 100%;
+}
+.header_row{
+        display: flex;
+        padding: 16px 160px;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.header_logo{
+        color: #000;
+        text-align: center;
+        cursor: pointer;
+
+        font-family: 'Poppins', sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px; /* 100% */
+}
+
+.header_logo span{
+        color: #6C7275;
+}
+
+.header_nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+}
+
+.header_nav li{
+
+        font-family: 'Inter', sans-serif;
+        font-size: 1.2rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.4rem;
+}
+
+.header_nav a{
+        text-decoration: none;
+        color: #6C7275;
+
+}
+
+.header_icons img{
+        cursor: pointer;
+    height: 24px;
+    width: 24px;
+}

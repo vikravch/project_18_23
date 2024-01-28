@@ -1,6 +1,6 @@
 .base{
     display: flex;
-    padding: 0 160px;
+    padding-left: 160px;
     align-items: flex-start;
-    gap: 63px;
+    gap: 16px;
 }

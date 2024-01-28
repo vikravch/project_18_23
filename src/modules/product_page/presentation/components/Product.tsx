@@ -1,11 +1,12 @@
 import React from 'react';
-import ElementsSlider from "./elements-slider/ElementsSlider";
-import ElementsProductLoop from "./elements-product-loop/ElementsProductLoop";
+import styles from './Product.module.css';
+import ElementsProductLoopMain from "./elements-product-loop-main/ElementsProductLoopMain";
+
 
 const Product = () => {
     return (
-        <div>
-            <ElementsProductLoop/>
+        <div className={styles.base}>
+            <ElementsProductLoopMain/>
         </div>
     );
 };

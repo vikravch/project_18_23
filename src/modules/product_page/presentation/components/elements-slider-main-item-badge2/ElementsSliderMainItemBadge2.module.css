@@ -1,7 +1,7 @@
 .badge{
     display: flex;
-    width: 84.154px;
-    height: 34.047px;
+    width: 43px;
+    height: 18px;
     padding: 8px 18px;
     margin: 10px 10px;
     justify-content: center;
@@ -10,6 +10,7 @@
     flex-shrink: 0;
     border-radius: 4px;
     background: #38CB89;
+
 }
 .text{
     color: #FEFEFE;
@@ -19,5 +20,5 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 18px; /* 100% */
+    line-height: 18px;
 }

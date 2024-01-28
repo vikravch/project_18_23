@@ -11,15 +11,15 @@ function CartHeader() {
             <p className={styles.page_header}>Cart</p>
             <div className={styles.steps}>
                 <div className={styles.step_active}>
-                    <img className={styles.img_circle} src={circle_1}/>
+                    <img className={styles.img_circle} src={circle_1} alt={'circle'}/>
                     <p className={styles.step_name}>Shopping cart</p><br/>
                 </div>
                 <div className={styles.step_grey}>
-                    <img className={styles.img_circle} src={circle_grey_2}/>
+                    <img className={styles.img_circle} src={circle_grey_2} alt={'circle'}/>
                     <p className={styles.step_name}>Checkout details</p><br/>
                 </div>
                 <div className={styles.step_grey}>
-                    <img className={styles.img_circle} src={circle_grey_3}/>
+                    <img className={styles.img_circle} src={circle_grey_3} alt={'circle'}/>
                     <p className={styles.step_name}>Order complete</p><br/>
                 </div>
             </div>

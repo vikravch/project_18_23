@@ -8,9 +8,6 @@ import Footer from "./general/components/footer/Footer";
 import HomePage from "./modules/home_page/presentation/page/HomePage";
 import CartPage from "./modules/cart/presentation/page/cart_main/CartPage";
 import CompletePage from "./modules/cart/presentation/page/complete/CompletePage";
-import CheckoutPage from "./modules/cart/presentation/page/checkout/CheckoutPage";
-
-
 
 
 function App() {
@@ -28,7 +25,6 @@ function App() {
                     <Route path="/" element={<HomePage/>}/>
                     <Route element={<WeatherPage/>}/>
                     <Route element={<CartPage/>} path="/cart"/>
-                    <Route element={<CheckoutPage/>} path={"/cart/checkout"}/>
                     <Route element={<CompletePage/>} path={"/cart/complete"}/>
 
                 </Routes>

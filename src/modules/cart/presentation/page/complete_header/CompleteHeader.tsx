@@ -10,15 +10,15 @@ function CompleteHeader() {
             <p className={styles.page_header}>Complete!</p>
             <div className={styles.steps}>
                 <div className={styles.step_green}>
-                    <img className={styles.img_circle} src={circle_green}/>
+                    <img className={styles.img_circle} src={circle_green} alt={'circle'}/>
                     <p className={styles.step_name}>Shopping cart</p><br/>
                 </div>
                 <div className={styles.step_green}>
-                    <img className={styles.img_circle} src={circle_green}/>
+                    <img className={styles.img_circle} src={circle_green} alt={'circle'}/>
                     <p className={styles.step_name}>Checkout details</p><br/>
                 </div>
                 <div className={styles.step_active}>
-                    <img className={styles.img_circle} src={circle_3}/>
+                    <img className={styles.img_circle} src={circle_3} alt={'circle'}/>
                     <p className={styles.step_name}>Order complete</p><br/>
                 </div>
             </div>

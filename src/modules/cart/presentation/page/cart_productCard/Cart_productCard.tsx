@@ -18,7 +18,6 @@ function CartProductCard() {
                         <p className={styles.table_header_title}>Price</p>
                         <p className={styles.table_header_title}>Subtotal</p>
                     </div>
-                    {/*</div>*/}
                 </div>
             </div>
 
@@ -27,17 +26,17 @@ function CartProductCard() {
             <div className={styles.cart_products}>
                 <div className={styles.cart_item}>
                     <div className={styles.product_image}>
-                        <img className={styles.img} src={product1}/>
+                        <img className={styles.img} src={product1} alt={'product'}/>
                         <div className={styles.product_info}>
                             <p className={styles.product_title}>Red Table</p>
                             <p className={styles.product_color}>Color: red</p>
                             <div className={styles.quantity}>
-                                <img className={styles.button_quantity} src={minus}/>
+                                <img className={styles.button_quantity} src={minus} alt={'minus'}/>
                                 <p className={styles.product_count}>2</p>
                                 <img className={styles.button_quantity} src={plus}/>
                             </div>
                             <div className={styles.remove_desk}>
-                                <img className={styles.button_remove_desk} src={remove}/>
+                                <img className={styles.button_remove_desk} src={remove} alt={'remove'}/>
                                 <p className={styles.remove_title_desk}>Remove</p>
                             </div>
                         </div>
@@ -45,31 +44,31 @@ function CartProductCard() {
                     <div className={styles.price_remove}>
                         <div className={styles.quantity_desk}>
                             <div className={styles.quantity_desk_btn}>
-                                <img className={styles.button_quantity} src={minus}/>
+                                <img className={styles.button_quantity} src={minus} alt={'minus'}/>
                                 <p className={styles.product_count}>2</p>
-                                <img className={styles.button_quantity} src={plus}/>
+                                <img className={styles.button_quantity} src={plus} alt={'plus'}/>
                             </div>
                         </div>
                         <p className={styles.price}>$15.14</p>
                         <p className={styles.subtotal_desk}>$456</p>
-                        <img className={styles.button_remove} src={remove}/>
+                        <img className={styles.button_remove} src={remove} alt={'remove'}/>
                     </div>
                 </div>
 
 
                 <div className={styles.cart_item}>
                     <div className={styles.product_image}>
-                        <img className={styles.img} src={product2}/>
+                        <img className={styles.img} src={product2} alt={'product'}/>
                         <div className={styles.product_info}>
                             <p className={styles.product_title}>Red Table</p>
                             <p className={styles.product_color}>Color: red</p>
                             <div className={styles.quantity}>
-                                <img className={styles.button_quantity} src={minus}/>
+                                <img className={styles.button_quantity} src={minus} alt={'minus'}/>
                                 <p className={styles.product_count}>2</p>
-                                <img className={styles.button_quantity} src={plus}/>
+                                <img className={styles.button_quantity} src={plus} alt={'plus'}/>
                             </div>
                             <div className={styles.remove_desk}>
-                                <img className={styles.button_remove_desk} src={remove}/>
+                                <img className={styles.button_remove_desk} src={remove} alt={'remove'}/>
                                 <p className={styles.remove_title_desk}>Remove</p>
                             </div>
                         </div>
@@ -77,30 +76,30 @@ function CartProductCard() {
                     <div className={styles.price_remove}>
                         <div className={styles.quantity_desk}>
                             <div className={styles.quantity_desk_btn}>
-                                <img className={styles.button_quantity} src={minus}/>
+                                <img className={styles.button_quantity} src={minus} alt={'minus'}/>
                                 <p className={styles.product_count}>2</p>
-                                <img className={styles.button_quantity} src={plus}/>
+                                <img className={styles.button_quantity} src={plus} alt={'plus'}/>
                             </div>
                         </div>
                         <p className={styles.price}>$15.14</p>
                         <p className={styles.subtotal_desk}>$456</p>
-                        <img className={styles.button_remove} src={remove}/>
+                        <img className={styles.button_remove} src={remove} alt={'remove'}/>
                     </div>
                 </div>
 
                 <div className={styles.cart_item}>
                     <div className={styles.product_image}>
-                        <img className={styles.img} src={product3}/>
+                        <img className={styles.img} src={product3} alt={'product'}/>
                         <div className={styles.product_info}>
                             <p className={styles.product_title}>Red Table</p>
                             <p className={styles.product_color}>Color: red</p>
                             <div className={styles.quantity}>
-                                <img className={styles.button_quantity} src={minus}/>
+                                <img className={styles.button_quantity} src={minus} alt={'minus'}/>
                                 <p className={styles.product_count}>2</p>
-                                <img className={styles.button_quantity} src={plus}/>
+                                <img className={styles.button_quantity} src={plus} alt={'plus'}/>
                             </div>
                             <div className={styles.remove_desk}>
-                                <img className={styles.button_remove_desk} src={remove}/>
+                                <img className={styles.button_remove_desk} src={remove} alt={'remove'}/>
                                 <p className={styles.remove_title_desk}>Remove</p>
                             </div>
                         </div>
@@ -108,14 +107,14 @@ function CartProductCard() {
                     <div className={styles.price_remove}>
                         <div className={styles.quantity_desk}>
                             <div className={styles.quantity_desk_btn}>
-                                <img className={styles.button_quantity} src={minus}/>
+                                <img className={styles.button_quantity} src={minus} alt={'minus'}/>
                                 <p className={styles.product_count}>2</p>
-                                <img className={styles.button_quantity} src={plus}/>
+                                <img className={styles.button_quantity} src={plus} alt={'plus'}/>
                             </div>
                         </div>
                         <p className={styles.price}>$15.14</p>
                         <p className={styles.subtotal_desk}>$456</p>
-                        <img className={styles.button_remove} src={remove}/>
+                        <img className={styles.button_remove} src={remove} alt={'remove'}/>
                     </div>
                 </div>
             </div>

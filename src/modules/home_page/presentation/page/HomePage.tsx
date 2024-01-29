@@ -10,7 +10,6 @@ import arr_right_btn from './imgMainPage/arrow_right_btn.svg'
 import element_img1 from './imgMainPage/element_img1.jpg'
 import star from './imgMainPage/star_icon.svg'
 
-
 function HomePage() {
     return (
         <div className={style.main_wrapper}>

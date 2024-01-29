@@ -1,0 +1,14 @@
+.base{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.text{
+    color: #141718;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}

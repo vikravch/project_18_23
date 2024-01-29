@@ -1,0 +1,9 @@
+.base{
+    display: flex;
+    width: 508px;
+    padding: 24px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    border-bottom: 1px solid #E8ECEF;
+}

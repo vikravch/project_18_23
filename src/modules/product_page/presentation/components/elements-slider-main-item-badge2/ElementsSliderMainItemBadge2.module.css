@@ -1,0 +1,24 @@
+.badge{
+    display: flex;
+    width: 43px;
+    height: 18px;
+    padding: 8px 18px;
+    margin: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #38CB89;
+
+}
+.text{
+    color: #FEFEFE;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}

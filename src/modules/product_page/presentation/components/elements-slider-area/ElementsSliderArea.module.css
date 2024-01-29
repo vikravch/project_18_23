@@ -1,0 +1,10 @@
+.img{
+    width: 167px;
+    height: 167px;
+    flex-shrink: 0;
+}
+.area{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}

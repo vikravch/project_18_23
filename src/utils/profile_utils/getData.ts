@@ -8,3 +8,7 @@ export const getOrdersHistory = () =>
 {
     return profileData.orders;
 }
+export const getUserInfo = () =>
+{
+    return profileData.userInfo;
+}

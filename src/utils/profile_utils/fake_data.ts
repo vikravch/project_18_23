@@ -1,6 +1,7 @@
 export interface ProfileType {
     orders: OrdersHistoryType[]
     addresses: AddressType[]
+    userInfo:UserInfo
 }
 
 export interface OrdersHistoryType {
@@ -16,9 +17,24 @@ export interface AddressType {
     phone: string
     address: string;
 }
+export interface UserInfo{
+    firstName:string
+    lastName:string
+    displayName:string
+    email:string
+    avatar:string
+}
 
 export const profileData: ProfileType =
     {
+        userInfo:
+            {
+                firstName:'Sofia',
+                lastName: 'Havertz',
+                displayName:'Sofia Havertz',
+                email:'',
+                avatar:'/images/profile/avatar.svg'
+            },
         orders:
             [
                 {

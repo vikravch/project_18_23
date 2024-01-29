@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './profileAddres.module.css';
-import {AddressType} from "../../../../utils/fake_data";
-import {getAddresses} from "../../../../utils/getData";
+import {AddressType} from "../../../../utils/profile_utils/fake_data";
+import {getAddresses} from "../../../../utils/profile_utils/getData";
 
 
 const ProfileAddress = () => {

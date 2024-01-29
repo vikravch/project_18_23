@@ -1,0 +1,56 @@
+.content_name
+{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.order_labels_container
+{
+    display:flex;
+    flex-direction: row;
+    width: 707px;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8ECEF;
+}
+
+.order_container
+{
+    flex-direction: column;
+    border: 0;
+}
+.order_label
+{
+    width: 130px;
+}
+
+.order_data_container
+{
+    display: flex;
+    flex-direction: row;
+    width: 707px;
+    padding: 24px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #E8ECEF;
+}
+
+.order_data
+{
+    width: 130px;
+}
+
+
+
+
+
+
+
+

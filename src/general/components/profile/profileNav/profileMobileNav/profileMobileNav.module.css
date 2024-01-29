@@ -1,0 +1,16 @@
+.mobile_nav_selector
+{
+    width: 280px;
+    padding: 8px 8px 8px 16px;
+    border-radius: 8px;
+    border: 2px solid #6C7275;
+    background: #FFF;
+    color: #141718;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+
+}

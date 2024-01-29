@@ -9,6 +9,10 @@ import kitchen from './imgMainPage/b_kitchen.jpg'
 import arr_right_btn from './imgMainPage/arrow_right_btn.svg'
 import element_img1 from './imgMainPage/element_img1.jpg'
 import star from './imgMainPage/star_icon.svg'
+import delivery from './imgMainPage/fast_delivery.svg'
+import call from './imgMainPage/call.svg'
+import lock from './imgMainPage/lock 01.svg'
+import money from './imgMainPage/money.svg'
 
 
 function HomePage() {
@@ -197,6 +201,54 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
+                    <div className={style.pr_card}>
+                        <div className={style.element_card}>
+                            <img src={element_img1} alt='Sofa'/>
+                            <button>Add to cart</button>
+                            <div className={style.badges}>
+                                <p className={style.new}>NEW</p>
+                                <p className={style.discount}> -15% </p>
+                            </div>
+                        </div>
+                        <div className={style.card_content}>
+                            <span>
+                                <img src={star} alt='Star'/>
+                                <img src={star} alt='Star'/>
+                                <img src={star} alt='Star'/>
+                                <img src={star} alt='Star'/>
+                                <img src={star} alt='Star'/>
+                            </span>
+                            <p>Loveseat Sofa</p>
+                            <div className={style.price}>
+                                <p>$199.00</p>
+                                <p style={{color: '#6C7275'}}>$400.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={style.values}>
+                    <div className={style.values_card}>
+                        <img src={delivery} alt='Delivery'/>
+                        <text>Free Shipping</text>
+                        <p>Order Above $200</p>
+                    </div>
+                    <div className={style.values_card}>
+                        <img src={money} alt='Delivery'/>
+                        <text>Money Back</text>
+                        <p>30 days guarantee</p>
+                    </div>
+                    <div className={style.values_card}>
+                        <img src={lock} alt='Delivery'/>
+                        <text>Secure Payments</text>
+                        <p>Secured by Stripe</p>
+                    </div>
+                    <div className={style.values_card}>
+                        <img src={call} alt='Delivery'/>
+                        <text>24/7 Support</text>
+                        <p>Phone and Email support</p>
+                    </div>
+
+
                 </div>
             </div>
         </div>

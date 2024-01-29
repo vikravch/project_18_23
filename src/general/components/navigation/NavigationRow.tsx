@@ -14,9 +14,9 @@ function NavigationRow() {
                     <span>.</span></div>
                 <nav className={style.header_nav}>
                     <ul>
-                        <li><a href='#'>Home</a></li>
-                        <li><a href='#'>Shop</a></li>
-                        <li><a href='#'>Blog</a></li>
+                        <li><a href='/'>Home</a></li>
+                        <li><a href='/shop'>Shop</a></li>
+                        <li><a href='/blog'>Blog</a></li>
                         <li><a href='#'>Contact Us</a></li>
                     </ul>
                 </nav>

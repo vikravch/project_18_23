@@ -31,7 +31,7 @@ const Address = () => {
                     <div className={s.cartForm__item}>
                         <label className={s.input__labelText}>Zip Code</label>
                         <input className={s.cartForm__input + ' ' + s.cartForm__inputHalf}
-                               type={"number"} name={"zipCode"} placeholder={"Zip Code"}/>
+                               type={"text"} name={"zipCode"} placeholder={"Zip Code"}/>
                     </div>
                 </div>
                 <div className={s.cartForm__rowForCheckBox}>

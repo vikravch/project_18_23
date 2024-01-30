@@ -1,0 +1,89 @@
+.cart {
+    display: flex;
+    width: 375px;
+    padding: 0px 32px 80px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.cartForm {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    padding: 24px 16px;
+    align-items: start;
+    gap: 24px;
+
+    border: #6C7275 solid 1px;
+    border-radius: 4px;
+}
+
+.cartForm__textTitle {
+    color: #141718;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.cartForm__rowForTwo{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cartForm__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.input__labelText{
+    color:#6C7275;
+    /* Hairline 2 */
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+
+.cartForm__input{
+    display: flex;
+    height: 40px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 6px;
+    border: 1px solid #cbcbcb;
+    background: #fff;
+}
+
+.cartForm__inputWhole{
+    width: 280px;
+}
+.cartForm__inputHalf{
+    width: 136px;
+    flex-shrink: 0;
+}
+
+.cartForm__rowForCheckBox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.cartForm__textForCheckBox{
+    color: #6C7275;
+
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}

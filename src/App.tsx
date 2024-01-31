@@ -26,6 +26,7 @@ function App() {
             width: "100%"
         }}>
             <NavigationRow/>
+            <h1>Hello</h1>
             <main style={{
                 flex: 1
             }}>

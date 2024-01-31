@@ -1,0 +1,18 @@
+.base{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.ch-color{
+    color: #6C7275;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.img{
+    width: 24px;
+    height: 24px;
+}

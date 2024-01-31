@@ -1,0 +1,24 @@
+.base {
+    display: flex;
+    padding: 1px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+.quantity {
+    color: #121212;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}

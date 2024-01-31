@@ -11,6 +11,7 @@ import ShopPage from "./modules/category/presentation/page/ShopPage";
 import Blog from "./modules/blog/page/Blog";
 import CartPage from "./modules/cart/presentation/page/cart_main/CartPage";
 import CompletePage from "./modules/cart/presentation/page/complete/CompletePage";
+import Articles from "./modules/home_page/presentation/components/articles/Articles";
 
 function App() {
     return (
@@ -37,6 +38,7 @@ function App() {
                     <Route path="/weather" element={<WeatherPage/>}/>
                 </Routes>
             </main>
+            <Articles/>
             <NewsletterSubscribe/>
             <Footer/>
         </div>

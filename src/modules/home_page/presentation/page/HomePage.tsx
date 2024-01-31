@@ -5,7 +5,6 @@ import MainPageBanner from "./mainPageBanner/MainPageBanner";
 import MainPageCarousel from "./mainPageCarousel/MainPageCarousel";
 import MainPageValues from "./mainPageValues/MainPageValues";
 
-
 function HomePage() {
     return (
         <div className={style.main_wrapper}>

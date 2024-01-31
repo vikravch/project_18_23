@@ -9,10 +9,8 @@ import HomePage from "./modules/home_page/presentation/page/HomePage";
 import Product from "./modules/product_page/presentation/components/Product";
 import ShopPage from "./modules/category/presentation/page/ShopPage";
 import Blog from "./modules/blog/page/Blog";
-import Article from "./modules/blog/presentation/Article/Article";
 import CartPage from "./modules/cart/presentation/page/cart_main/CartPage";
 import CompletePage from "./modules/cart/presentation/page/complete/CompletePage";
-import CheckoutPage from "./modules/cart/presentation/page/checkout/CheckoutPage";
 
 function App() {
     return (

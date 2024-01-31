@@ -3,8 +3,6 @@ import './App.css';
 import WeatherPage from "./modules/weather/presentation/pages/WeatherPage";
 import {Route, Routes} from "react-router";
 import NavigationRow from "./general/components/navigation/NavigationRow";
-import NewsletterSubscribe from "./general/components/newsletter_subscribe/NewsletterSubscribe";
-import Footer from "./general/components/footer/Footer";
 import HomePage from "./modules/home_page/presentation/page/HomePage";
 import ProfilePage from "./modules/profile_page/presentation/page/ProfilePage";
 import ProfileAddressPage from "./modules/profile_address_page/presentation/page/ProfileAddressPage";
@@ -15,8 +13,7 @@ import Blog from "./modules/blog/page/Blog";
 import CartPage from "./modules/cart/presentation/page/cart_main/CartPage";
 import CompletePage from "./modules/cart/presentation/page/complete/CompletePage";
 import CartCheckout from "./modules/cart/presentation/page/cart_checkout/cart_checkout";
-import Articles from "./modules/home_page/presentation/components/articles/Articles";
-import Discount from "./modules/home_page/presentation/components/new_lower_prices/Discount";
+
 
 function App() {
     return (
@@ -47,10 +44,7 @@ function App() {
                     <Route path="/weather" element={<WeatherPage/>}/>
                 </Routes>
             </main>
-            <Discount/>
-            <Articles/>
-            <NewsletterSubscribe/>
-            <Footer/>
+
         </div>
 
     );

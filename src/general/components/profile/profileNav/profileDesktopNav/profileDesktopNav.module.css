@@ -1,0 +1,41 @@
+.profile_desktop_nav_item_container
+{
+    width: 100%;
+}
+.profile_desktop_nav_item_container:hover
+{
+    border-bottom: 2px solid #141718;
+}
+
+.desktop_nav_item_active
+{
+    width: 100%;
+    color: #6C7275;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 10px 0;
+}
+
+.desktop_nav_item
+{
+    width: 100%;
+    color: #6C7275;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 10px 0;
+}
+
+.desktop_nav_item:hover
+{
+    cursor: pointer;
+    color: #141718;
+
+}

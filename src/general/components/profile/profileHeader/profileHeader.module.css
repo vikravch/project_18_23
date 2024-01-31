@@ -1,0 +1,46 @@
+.wrapper
+{
+    display: flex;
+    width: 375px;
+    padding: 16px 0 40px 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.header_text
+{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins, serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.4px;
+    margin: 0 auto;
+}
+.back_button:hover
+{
+    width: 81px;
+    height: 24px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1440px)
+{
+    .wrapper
+    {
+        flex: 0 1 100%;
+        gap: 0;
+        padding: 80px 0;
+    }
+
+    .back_button{
+        display: none;
+    }
+    .header_text
+    {
+        padding: 0;
+    }
+}

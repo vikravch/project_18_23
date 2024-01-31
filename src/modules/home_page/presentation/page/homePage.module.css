@@ -4,8 +4,6 @@
 
 .main_wrapper {
     box-sizing: border-box;
-
-
 }
 
 .slider_wrapper {
@@ -423,3 +421,11 @@
     font-weight: 500;
     line-height: 28px; /* 140% */
 }
+
+/*
+@media (min-width: 769px) {
+    .slider_wrapper {
+        width: 50%;
+        margin: 0;
+    }
+*/

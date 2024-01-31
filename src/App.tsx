@@ -7,6 +7,7 @@ import HomePage from "./modules/home_page/presentation/page/HomePage";
 import ProfilePage from "./modules/profile_page/presentation/page/ProfilePage";
 import ProfileAddressPage from "./modules/profile_address_page/presentation/page/ProfileAddressPage";
 import ProfileOrderHistoryPage from "./modules/profile_orders_page/presentation/page/ProfileOrderHistoryPage";
+import ProfileWishlistPage from "./modules/profile_wishlist_page/presentation/page/ProfileWishlistPage";
 import Product from "./modules/product_page/presentation/components/Product";
 import ShopPage from "./modules/category/presentation/page/ShopPage";
 import Blog from "./modules/blog/page/Blog";
@@ -35,6 +36,7 @@ function App() {
                     <Route path={'/profile'} element={<ProfilePage/>} />
                     <Route path={'/profile/address'} element={<ProfileAddressPage/>} />
                     <Route path={'/profile/orders'} element={<ProfileOrderHistoryPage/>} />
+                    <Route path={'/profile/wishlist'} element={<ProfileWishlistPage/>}/>
                     <Route path={"/product"} element={<Product/>}/>
                     <Route element={<ShopPage/>} path="/shop"/>
                     <Route element={<Blog/>} path="/blog/"/>

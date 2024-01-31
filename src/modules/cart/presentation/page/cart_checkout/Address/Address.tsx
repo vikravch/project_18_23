@@ -3,40 +3,40 @@ import s from '../cart_checkout.module.css'
 
 const Address = () => {
     return (
-            <form className={s.cartForm}>
-                <label className={s.cartForm__textTitle}>Shipping Address</label>
-                <div className={s.cartForm__item}>
-                    <label className={s.input__labelText}>Street Address*</label>
-                    <input className={s.cartForm__input + ' ' + s.cartForm__inputWhole}
+            <form className={s.form}>
+                <label className={s.form__textTitle}>Shipping Address</label>
+                <div className={s.form__containerInput}>
+                    <label className={s.form__inputTextLabel}>Street Address*</label>
+                    <input className={s.form__inputContainer + ' ' + s.form__inputWholeContainer}
                            type={"text"} name={"address"} placeholder={"Street Address"}/>
                 </div>
-                <div className={s.cartForm__item}>
-                    <label className={s.input__labelText}>Country*</label>
-                    <input className={s.cartForm__input + ' ' + s.cartForm__inputWhole}
-                           type={"text"} name={"country"} placeholder={"Country"}/>
+                <div className={s.form__containerInput}>
+                    <label className={s.form__inputTextLabel}>Country*</label>
+                    <select className={s.form__inputContainer + ' ' + s.form__inputWholeContainer}
+                            name={"country"}>
+                        <option>Country</option>
+                    </select>
                 </div>
-                <div className={s.cartForm__item}>
-                    <label className={s.input__labelText}>Town/City</label>
-                    <input className={s.cartForm__input + ' ' + s.cartForm__inputWhole}
+                <div className={s.form__containerInput}>
+                    <label className={s.form__inputTextLabel}>Town/City</label>
+                    <input className={s.form__inputContainer + ' ' + s.form__inputWholeContainer}
                            type={"text"} name={"city"} placeholder={"Town/City"}/>
                 </div>
-                <div className={s.cartForm__rowForTwo}>
-                    <div className={s.cartForm__item}>
-                        <label className={s.input__labelText}>State</label>
-                        <select className={s.cartForm__input + ' ' + s.cartForm__inputHalf}
-                               name={"state"}>
-                            <option>State</option>
-                        </select>
+                <div className={s.form__rowForTwoInput}>
+                    <div className={s.form__containerInput}>
+                        <label className={s.form__inputTextLabel}>State</label>
+                        <input className={s.form__inputContainer + ' ' + s.form__inputHalfContainer}
+                               type={"text"} name={"state"} placeholder={"State"}/>
                     </div>
-                    <div className={s.cartForm__item}>
-                        <label className={s.input__labelText}>Zip Code</label>
-                        <input className={s.cartForm__input + ' ' + s.cartForm__inputHalf}
+                    <div className={s.form__containerInput}>
+                        <label className={s.form__inputTextLabel}>Zip Code</label>
+                        <input className={s.form__inputContainer + ' ' + s.form__inputHalfContainer}
                                type={"text"} name={"zipCode"} placeholder={"Zip Code"}/>
                     </div>
                 </div>
-                <div className={s.cartForm__rowForCheckBox}>
+                <div className={s.form__checkBoxContainer}>
                     <input type={"checkbox"} name={"isDifferentbillingAddress"}/>
-                    <label className={s.cartForm__textForCheckBox}>Use a different billing address (optional)</label>
+                    <label className={s.form__checkBoxContainer_textElement}>Use a different billing address (optional)</label>
                 </div>
             </form>
     );

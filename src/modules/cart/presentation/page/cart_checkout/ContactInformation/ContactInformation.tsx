@@ -3,30 +3,30 @@ import s from '../cart_checkout.module.css';
 
 const ContactInformation = () => {
     return (
-        <form className={s.cartForm}>
-            <label className={s.cartForm__textTitle}>
+        <form className={s.form}>
+            <label className={s.form__textTitle}>
                 Contact Information
             </label>
-            <div className={s.cartForm__rowForTwo}>
-                <div className={s.cartForm__item}>
-                    <label className={s.input__labelText}>First Name</label>
-                    <input className={s.cartForm__input + ' ' + s.cartForm__inputHalf}
+            <div className={s.form__rowForTwoInput}>
+                <div className={s.form__containerInput}>
+                    <label className={s.form__inputTextLabel}>First Name</label>
+                    <input className={s.form__inputContainer + ' ' + s.form__inputHalfContainer}
                            type={"text"} name={"firstName"} placeholder={'First Name'}/>
                 </div>
-                <div className={s.cartForm__item}>
-                    <label className={s.input__labelText}>Last Name</label>
-                    <input className={s.cartForm__input + ' ' + s.cartForm__inputHalf}
+                <div className={s.form__containerInput}>
+                    <label className={s.form__inputTextLabel}>Last Name</label>
+                    <input className={s.form__inputContainer + ' ' + s.form__inputHalfContainer}
                            type={"text"} name={"lastName"} placeholder={'Last Name'}/>
                 </div>
             </div>
-            <div className={s.cartForm__item}>
-                <label className={s.input__labelText}>Phone Number</label>
-                <input className={s.cartForm__input + ' ' + s.cartForm__inputWhole}
+            <div className={s.form__containerInput}>
+                <label className={s.form__inputTextLabel}>Phone Number</label>
+                <input className={s.form__inputContainer + ' ' + s.form__inputWholeContainer}
                        type={"text"} name={"PhoneNumber"} placeholder={'Phone number'}/>
             </div>
-            <div className={s.cartForm__item}>
-                <label className={s.input__labelText}>Email address</label>
-                <input className={s.cartForm__input + ' ' + s.cartForm__inputWhole}
+            <div className={s.form__containerInput}>
+                <label className={s.form__inputTextLabel}>Email address</label>
+                <input className={s.form__inputContainer + ' ' + s.form__inputWholeContainer}
                        type={"text"} name={"firstName"} placeholder={'Your Email'}/>
             </div>
         </form>

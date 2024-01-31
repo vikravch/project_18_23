@@ -22,7 +22,7 @@ function NavigationRow() {
                     <li><a href='/'>Home</a></li>
                         <li><a href='/shop'>Shop</a></li>
                         <li><a href='/blog'>Blog</a></li>
-                        <li><a href='#'>Contact Us</a></li>
+                        <li><a href='/contactUs'>Contact Us</a></li>
                     </ul>
                 </nav>
                 <div className={style.header_icons}>

@@ -10,22 +10,22 @@ const MainPageValues = () => {
         <div className={style.values}>
             <div className={style.values_card}>
                 <img src={delivery} alt='Delivery'/>
-                <text>Free Shipping</text>
+                <div>Free Shipping</div>
                 <p>Order Above $200</p>
             </div>
             <div className={style.values_card}>
                 <img src={money} alt='Delivery'/>
-                <text>Money Back</text>
+                <div>Money Back</div>
                 <p>30 days guarantee</p>
             </div>
             <div className={style.values_card}>
                 <img src={lock} alt='Delivery'/>
-                <text>Secure Payments</text>
+                <div>Secure Payments</div>
                 <p>Secured by Stripe</p>
             </div>
             <div className={style.values_card}>
                 <img src={call} alt='Delivery'/>
-                <text>24/7 Support</text>
+                <div>24/7 Support</div>
                 <p>Phone and Email support</p>
             </div>
         </div>

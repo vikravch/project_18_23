@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './homePage.module.css'
-import MainPageSlider from "./MainPageSlider/MainPageSlider";
-import MainPageBanner from "./MainPageBanner/MainPageBanner";
-import MainPageCarousel from "./MainPageCarousel/MainPageCarousel";
-import MainPageValues from "./MainPageValues/MainPageValues";
+import MainPageSlider from "./mainPageSlider/MainPageSlider";
+import MainPageBanner from "./mainPageBanner/MainPageBanner";
+import MainPageCarousel from "./mainPageCarousel/MainPageCarousel";
+import MainPageValues from "./mainPageValues/MainPageValues";
 
 
 function HomePage() {

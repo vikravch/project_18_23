@@ -7,7 +7,7 @@
     gap: 24px;
 }
 
-.cartForm {
+.form {
     display: flex;
     flex-direction: column;
     width: 312px;
@@ -19,7 +19,7 @@
     border-radius: 4px;
 }
 
-.cartForm__textTitle {
+.form__textTitle {
     color: #141718;
     font-family: Inter;
     font-size: 16px;
@@ -27,24 +27,76 @@
     font-weight: 600;
     line-height: 26px;
 }
-
-.cartForm__rowForTwo{
+.form__rowForTwoInput{
     display: flex;
     flex-direction: row;
     width: 280px;
     justify-content: space-between;
     align-items: flex-start;
 }
-.cartForm__item{
+
+
+.productItem{
+    display: flex;
+    width: 280px;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #E8ECEF;
+}
+.productItem__image{
+    display: flex;
+    width: 80px;
+    height: 96px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.productItem__summary{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+}
+.productItem__textTitle{
+    color: #141718;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+.productItem__textPrice{
+    color: #121212;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+}
+.productItem__textColor{
+    color: #6C7275;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.form__containerInput{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
 }
-
-.input__labelText{
+.form__inputTextLabel{
     color:#6C7275;
-    /* Hairline 2 */
     font-family: Inter;
     font-size: 12px;
     font-style: normal;
@@ -52,8 +104,7 @@
     line-height: 12px; /* 100% */
     text-transform: uppercase;
 }
-
-.cartForm__input{
+.form__inputContainer{
     display: flex;
     height: 40px;
     padding: 0px 16px;
@@ -64,26 +115,61 @@
     border: 1px solid #cbcbcb;
     background: #fff;
 }
-
-.cartForm__inputWhole{
+.form__inputWholeContainer{
     width: 280px;
 }
-.cartForm__inputHalf{
+.form__inputHalfContainer{
     width: 136px;
     flex-shrink: 0;
 }
 
-.cartForm__rowForCheckBox{
+.form__checkBoxContainer{
     display: flex;
     align-items: center;
     gap: 12px;
 }
-.cartForm__textForCheckBox{
+.form__checkBoxContainer_textElement{
     color: #6C7275;
-
     font-family: Inter;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
+}
+
+.form__containerCheckBox{
+    display: flex;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    border-bottom: 1px solid #6C7275;
+}
+.form__containerCheckBox_Item{
+    display: flex;
+    width: 272px;
+    padding: 13px 16px;
+    align-items: center;
+    gap: 395px;
+
+    border-radius: 4px;
+    border: 1px solid #141718;
+    background: #F3F5F7;
+}
+.form__containerCheckBox_Item_Content{
+    display: flex;
+    padding: 2px 84px 2px 0px;
+    align-items: center;
+    flex: 1 0 0;
+    gap: 12px;
+}
+.form__containerCheckBox_Item_Content_Text{
+    color: #141718;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
 }

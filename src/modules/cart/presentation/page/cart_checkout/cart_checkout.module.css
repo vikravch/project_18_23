@@ -35,6 +35,39 @@
     align-items: flex-start;
 }
 
+.form__containerInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.form__inputTextLabel{
+    color:#6C7275;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+.form__inputContainer{
+    display: flex;
+    height: 40px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 6px;
+    border: 1px solid #cbcbcb;
+    background: #fff;
+}
+.form__inputWholeContainer{
+    width: 280px;
+}
+.form__inputHalfContainer{
+    width: 136px;
+    flex-shrink: 0;
+}
 
 .productItem{
     display: flex;
@@ -89,39 +122,7 @@
     line-height: 20px;
 }
 
-.form__containerInput{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-}
-.form__inputTextLabel{
-    color:#6C7275;
-    font-family: Inter;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 12px; /* 100% */
-    text-transform: uppercase;
-}
-.form__inputContainer{
-    display: flex;
-    height: 40px;
-    padding: 0px 16px;
-    align-items: center;
-    gap: 8px;
 
-    border-radius: 6px;
-    border: 1px solid #cbcbcb;
-    background: #fff;
-}
-.form__inputWholeContainer{
-    width: 280px;
-}
-.form__inputHalfContainer{
-    width: 136px;
-    flex-shrink: 0;
-}
 
 .form__checkBoxContainer{
     display: flex;

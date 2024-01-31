@@ -1,0 +1,217 @@
+.cart {
+    display: flex;
+    width: 375px;
+    padding: 0px 32px 80px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    padding: 24px 16px;
+    align-items: start;
+    gap: 24px;
+
+    border: #6C7275 solid 1px;
+    border-radius: 4px;
+}
+
+.form__textTitle {
+    color: #141718;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.form__rowForTwoInput{
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form__containerInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+.form__inputTextLabel{
+    color:#6C7275;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 100% */
+    text-transform: uppercase;
+}
+.form__inputContainer{
+    display: flex;
+    height: 40px;
+    padding: 0px 16px;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 6px;
+    border: 1px solid #cbcbcb;
+    background: #fff;
+}
+.form__inputWholeContainer{
+    width: 280px;
+}
+.form__inputHalfContainer{
+    width: 136px;
+    flex-shrink: 0;
+}
+
+.productItem{
+    display: flex;
+    width: 280px;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+gap: 16px;
+    border-bottom: 1px solid #E8ECEF;
+}
+
+.productItem__summary{
+    display: flex;
+    width: 184px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    gap: 8px;
+}
+.productItem__summary_rowForTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.productItem__image{
+    display: flex;
+    width: 80px;
+    height: 96px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.productItem__textTitle{
+    color: #141718;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}
+.productItem__textPrice{
+    color: #121212;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 157.143% */
+}
+.productItem__textColor{
+    color: #6C7275;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.productItem__removeBtn{
+    width: 24px;
+}
+
+.productItem__summary_quantity{
+    display: flex;
+    width: 80px;
+    height: 32px;
+    padding: 12px 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+    border-radius: 4px;
+    border: 1px solid #6C7275;
+}
+.productItem__summary_quantity_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+.productItem__summary_quantity_content_btn{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.productItem__summary_quantity_content_text{
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+
+.form__checkBoxContainer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.form__checkBoxContainer_textElement{
+    color: #6C7275;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.form__containerCheckBox{
+    display: flex;
+    padding-bottom: 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    border-bottom: 1px solid #6C7275;
+}
+.form__containerCheckBox_Item{
+    display: flex;
+    width: 272px;
+    padding: 13px 16px;
+    align-items: center;
+    gap: 395px;
+
+    border-radius: 4px;
+    border: 1px solid #141718;
+    background: #F3F5F7;
+}
+.form__containerCheckBox_Item_Content{
+    display: flex;
+    padding: 2px 84px 2px 0px;
+    align-items: center;
+    flex: 1 0 0;
+    gap: 12px;
+}
+.form__containerCheckBox_Item_Content_Text{
+    color: #141718;
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+}

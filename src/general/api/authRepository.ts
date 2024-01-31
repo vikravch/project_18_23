@@ -43,21 +43,23 @@ function createRequestHeaders(headerOptions?: Options): HeadersInit {
 export default class AuthRepository {
     private static async fetchData<T>(url: string, method: Methods, requestData?: authOptions, headerOptions?: Options, requestOptions?: RequestInit): Promise<T> {
         const apiUrl: string = `${API_PROTOCOL}://${BASE_URL_API_SERVER}:${PORT_API_SERVER}`;
-
-        const defaultRequestOptions: RequestInit = {
+        console.log('[AuthRepository fetchData: ]', requestData);
+        let defaultRequestOptions: RequestInit = {
             method: method,
             headers: createRequestHeaders(headerOptions),
             credentials: 'include',
             mode: "cors",
             body: JSON.stringify(requestData),
         };
+
         if (requestOptions)
-            requestOptions = {
+            defaultRequestOptions = {
                 ...defaultRequestOptions,
                 ...requestOptions,
             }
 
-        const response = await fetch(`${apiUrl}${url}`, requestOptions);
+        console.log('[authRepository]  requestOptions: ', defaultRequestOptions);
+        const response = await fetch(`${apiUrl}${url}`, defaultRequestOptions);
 
         // Проверка успешности запроса
         if (!response.ok) {
@@ -72,14 +74,20 @@ export default class AuthRepository {
     static async login(email: string, password: string): Promise<AuthResponse> {
         const base64 = `Basic ${btoa(`${email}:${password}`)}`;
         const requestData = undefined; // {email, password}
-        return await AuthRepository.fetchData<AuthResponse>('/login', 'POST', requestData,{'authorization': base64});
+        return await AuthRepository.fetchData<AuthResponse>('/login', 'POST', requestData, {'authorization': base64});
         // return $api.post<AuthResponse>('/login', {email, password})
     }
 
     static async registration(email: string, password: string): Promise<AuthResponse> {
         const base64 = `Basic ${btoa(`${email}:${password}`)}`;
-        const requestData = undefined; // {email, password}
-        return await AuthRepository.fetchData<AuthResponse>('/registration', 'POST', requestData,{'authorization': base64});
+        const requestData = {email, password};
+        console.log('[AuthRepository registration] e-mail: ', email);
+        console.log('[AuthRepository registration] password: ', password);
+        console.log('[AuthRepository registration] requestData:', requestData);
+        //                                                      http://localhost:5000/api/registration
+        return await AuthRepository.fetchData<AuthResponse>('/api/registration', 'POST',
+            requestData, {email, password});
+        // return await AuthRepository.fetchData<AuthResponse>('/api/registration', 'POST', requestData,{'authorization': base64, email, password});
         // return $api.post<AuthResponse>('/registration', {email, password})
     }
 

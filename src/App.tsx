@@ -12,7 +12,8 @@ import Blog from "./modules/blog/page/Blog";
 import Article from "./modules/blog/presentation/Article/Article";
 import CartPage from "./modules/cart/presentation/page/cart_main/CartPage";
 import CompletePage from "./modules/cart/presentation/page/complete/CompletePage";
-import CheckoutPage from "./modules/cart/presentation/page/checkout/CheckoutPage";
+import Wrapper from "./general/components/login/Wrapper";
+// import CheckoutPage from "./modules/cart/presentation/page/checkout/CheckoutPage";
 
 function App() {
     return (
@@ -37,6 +38,7 @@ function App() {
                     <Route element={<CartPage/>} path="/cart"/>
                     <Route element={<CompletePage/>} path={"/cart/complete"}/>
                     <Route path="/weather" element={<WeatherPage/>}/>
+                    <Route path="/login" element={<Wrapper/>}/>
                 </Routes>
             </main>
             <NewsletterSubscribe/>

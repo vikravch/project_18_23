@@ -44,6 +44,7 @@ function App() {
                     <Route path="/weather" element={<WeatherPage/>}/>
                 </Routes>
             </main>
+            <div></div>
 
         </div>
 

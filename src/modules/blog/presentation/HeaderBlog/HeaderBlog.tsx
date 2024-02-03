@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./HeaderBlog.module.css";
+import style from "./css/HeaderBlog.module.css";
 import PasteImage from "../../utils/images/PasteImage.png";
 import {Link} from "react-router-dom";
 

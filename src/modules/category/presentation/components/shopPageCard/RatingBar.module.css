@@ -1,0 +1,9 @@
+.starsbar{
+    display: flex;
+    width: 88px;
+    height: 16px;
+}
+.staricon{
+    width: 16px;
+    height: 16px;
+}

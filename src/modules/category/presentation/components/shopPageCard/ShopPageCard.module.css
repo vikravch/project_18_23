@@ -1,0 +1,187 @@
+.product_card{
+    display: flex;
+    flex-direction: column-reverse;
+    /*Button="OFF";*/
+    /*Button Status="Added";*/
+    /*Wishlist="OFF";*/
+    width: 262px;
+    height: 433px;
+}
+.card_element{
+    position: relative;
+    width: 262px;
+    height: 349px;
+    gap: 8px;
+}
+.card_content{
+    width: 262px; /*fixed*/
+    height: 72px;
+    top: 361px;
+    gap: 12px;
+}
+.content_textprice{
+    width: 262px; /*fill*/
+    height: 72px;
+    gap: 4px;
+}
+
+
+
+.rating_text{
+    width: 262px;
+    height: 26px;
+//styleName: Body 2 (Semi);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(20, 23, 24, 1);
+}
+
+.price_wrapper{
+    display: flex;
+    width: 125px;
+    height: 22px;
+    gap: 12px;
+}
+.price1{
+    width: 56px;
+    height: 22px;
+
+    /* Caption 1 (Semi) */
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    /* Black/900 */
+    color: #121212;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.price2{
+    width: 57px;
+    height: 22px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    text-decoration-line: line-through;
+
+    /* Neutral/04/100% */
+    color: #6C7275;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.badges{
+    position: absolute;
+    width: 71px;
+    height: 56px;
+    top: 16px;
+    left: 16px;
+    /*gap: 8px;*/
+}
+.badge_higher{
+    width: 39px;
+    height: 16px;
+    padding: 4px 14px 4px 14px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+    /*gap: 8px;*/
+}
+.badge_lower{
+    width: 43px;
+    height: 16px;
+    padding: 4px 14px 4px 14px;
+    border-radius: 4px;
+    background: rgba(56, 203, 137, 1);
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #FEFEFE;
+}
+.addwishlist{
+    display: none;
+    position: absolute;
+    /*Status="OFF";*/
+    width: 32px; /*fixed*/
+    height: 32px; /*fixed*/
+    top: 16px;
+    left: 214px;
+    padding: 6px;
+    border-radius: 32px;
+    gap: 10px;
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 8px 16px -8px rgba(15, 15, 15, 0.12);
+}
+.iconwishlist{
+    width: 20px;
+    height: 20px;
+    padding: 2.5px 0.83px 2.67px 0.83px;
+}
+.shapewishlist{
+    width: 18.33px;
+    height: 14.83px;
+    top: 2.5px;
+    left: 0.83px;
+    background: rgba(108, 114, 117, 1);
+}
+.buttonhover{
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    width: 230px; /*fixed*/
+    height: 46px; /*fixed*/
+    top: 287px;
+    left: 16px;
+    padding: 8px 24px 8px 24px;
+    border-radius: 8px;
+    gap: 4px;
+    background: rgba(20, 23, 24, 1);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.0364);
+}
+.buttonhovertext:hover{
+    cursor: pointer;
+    width: 82px;
+    height: 28px;
+//styleName: Button S;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: rgba(254, 254, 254, 1);
+}
+.card_image{
+    /*display: flex;*/
+    width: 262px;
+    height: 349px;
+    background: rgba(243, 245, 247, 1);
+}

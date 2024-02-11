@@ -1,0 +1,70 @@
+
+.shopPageHeader {
+    margin: 0;
+    width: 1440px;
+    height: 392px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageHolder{
+    width: 1120px;
+    height: 392px;
+    background-image: url('./images/headerpic.webp');
+    background-color: rgba(243, 245, 247, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.textBoxPageHeader{
+    width: 413px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkText3{
+    width: 35px;
+    height: 24px;
+    /*//styleName: Button XS;*/
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+}
+.textHeader{
+    display: flex;
+    width: 284px;
+    height: 58px;
+    /*styleName: Headline 3;*/
+    font-family: Poppins, sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: -1px;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
+}
+.textHeaderLower{
+
+    display: flex;
+
+    width: 413px;
+    height: 32px;
+    styleName: Body 1;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(18, 18, 18, 1);
+}

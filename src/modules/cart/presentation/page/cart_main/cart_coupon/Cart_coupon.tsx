@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from "../cart_coupon/cart_coupon.module.css";
-import percent from "../img/percent.png";
+import styles from "./cart_coupon.module.css";
+import percent from "../../img/percent.png";
 
 function CartCoupon() {
     return (

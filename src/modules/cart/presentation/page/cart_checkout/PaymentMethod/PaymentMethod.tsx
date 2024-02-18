@@ -1,5 +1,6 @@
 import React from 'react';
 import s from "../cart_checkout.module.css";
+import styles from "../../cart_main/cart_summary/cart_summary.module.css";
 
 const PaymentMethod = () => {
     return (
@@ -10,14 +11,14 @@ const PaymentMethod = () => {
             <div className={s.form__containerCheckBox}>
                 <div className={s.form__containerCheckBox_Item}>
                     <div className={s.form__containerCheckBox_Item_Content}>
-                        <input type={"radio"} name="paymentMethod" id={"creditCard"}/>
+                        <input className={styles.radio} type={"radio"} name="paymentMethod" id={"creditCard"}  checked/>
                         <label className={s.form__containerCheckBox_Item_Content_Text}
                                htmlFor="creditCard">Pay by Card Credit</label>
                     </div>
                 </div>
                 <div className={s.form__containerCheckBox_Item}>
                     <div className={s.form__containerCheckBox_Item_Content}>
-                        <input type={"radio"} name="paymentMethod" id={"pauPal"}/>
+                        <input className={styles.radio} type={"radio"} name="paymentMethod" id={"pauPal"}/>
                         <label className={s.form__containerCheckBox_Item_Content_Text}
                                htmlFor="debitCard">Paypal</label>
                     </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "../complete/complete.module.css"
-import Complete_header from "../complete_header/CompleteHeader";
-import CompleteInformation from "../complete_information/CompleteInformation";
+import Complete_header from "./complete_header/CompleteHeader";
+import CompleteInformation from "./complete_information/CompleteInformation";
 
 function CompletePage() {
     return (

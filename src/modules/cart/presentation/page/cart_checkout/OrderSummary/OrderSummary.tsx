@@ -5,10 +5,11 @@ import {ProductType} from "../../../../data/types";
 import minus from "../../img/minus.png";
 import plus from "../../img/plus.png";
 import remove from "../../img/remove.png";
+import Coupon from "../Coupon/Coupon";
 
 const OrderSummary = () => {
     return (
-        <form className={s.form}>
+        <form className={s.form + ' ' + s.form__summary_desk}>
             <label className={s.form__textTitle}>
                 Order summary
             </label>
@@ -29,18 +30,21 @@ const OrderSummary = () => {
                             <div className={s.productItem__summary_quantity}>
                                 <div className={s.productItem__summary_quantity_content}>
                                     <img className={s.productItem__summary_quantity_content_btn}
-                                         src={plus}/>
-                                    <p>2</p>
-                                    <img className={s.productItem__summary_quantity_content_btn}
                                          src={minus}/>
+                                    <p>{p.count}</p>
+                                    <img className={s.productItem__summary_quantity_content_btn}
+                                         src={plus}/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             )}
+            <Coupon/>
         </form>
-    );
+
+    )
+        ;
 };
 
 export default OrderSummary;

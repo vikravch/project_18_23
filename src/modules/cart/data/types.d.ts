@@ -4,4 +4,5 @@ export interface ProductType{
     color:string
     cost: number
     image: string
+    count: number
 }

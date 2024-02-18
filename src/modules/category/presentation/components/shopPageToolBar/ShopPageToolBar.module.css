@@ -1,0 +1,101 @@
+.toolBar{
+    width: 1120px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 50px 0 50px 0;
+}
+.dropdown_wrapper{
+    width: 548px;
+    height: 82px;
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown_main{
+    width: 262px;
+    height: 82px;
+}
+.dropdown_inner{
+    padding: 8px 8px 8px 16px;
+    border-radius: 8px;
+    border: 2px solid rgba(108, 114, 117, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(108, 114, 117, 1);
+}
+.dropdown_text{
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(20, 23, 24, 1);
+}
+.dropdown_button{
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    border-radius: 100px;
+}
+.dropdown_button_icon{
+    width: 24px;
+    height: 24px;
+    padding: 0px 7.5px 0px 7.5px;
+}
+.elements_toolbar{
+    display: flex;
+    justify-content: space-between;
+    width: 296px;
+    height: 40px;
+}
+.elements_main_btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 80px;
+    height: 26px;
+    color: rgba(18, 18, 18, 1);
+}
+.element_content{
+    display: flex;
+    width: 56px;
+    height: 26px;
+    gap: 4px;
+}
+.elements_text{
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(18, 18, 18, 1);
+}
+.icon_wrapper{
+    display: flex;
+    width: 20px;
+    height: 20px;
+
+}
+.elements_wrapper{
+    display: flex;
+    width: 184px;
+    height: 40px;
+    border: 1px;
+}
+.grid_wrapper{
+    border-color: rgba(243 244 245 / 45%);
+    display: flex;
+    width: 46px;
+    height: 40px;
+    padding: 8px 11px 8px 11px;
+    background-color: white;
+}
+.grid{
+    box-sizing: border-box;
+    width: 46px;
+    height: 40px;
+}

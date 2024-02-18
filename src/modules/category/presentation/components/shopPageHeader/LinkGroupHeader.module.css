@@ -1,0 +1,39 @@
+.linkGroup{
+    display: flex;
+    justify-content: space-between;
+    width: 107px;
+    height: 24px;
+}
+.linkText1{
+    width: 40px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(96, 95, 95, 1);
+}
+.icon_chevron_right{
+}
+.chevron_right{
+    width: 3px;
+    height: 6px;
+    top: 3px;
+    left: 4.58px;
+}
+.btn_home{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    width: 56px;
+    height: 24px;
+    text-decoration: none;
+}
+.btnShop{
+    border: none;
+    display: flex;
+    width: 35px;
+    height: 24px;
+}

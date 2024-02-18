@@ -1,8 +1,7 @@
 import React from 'react';
-import styles from "../complete_information/complete_information.module.css";
-import order1 from "../img/1.png";
-import order2 from "../img/2.jpg";
-import order3 from "../img/3.jpg";
+import styles from "./complete_information.module.css";
+import {products} from "../../../../data/fake/products-config";
+import {ProductType} from "../../../../data/types";
 
 function CompleteInformation() {
     return (
@@ -11,30 +10,16 @@ function CompleteInformation() {
                 <p className={styles.thanks}> Thank you!🎉 </p>
                 <p className={styles.order_received}> Your order has been received</p></div>
             <div className={styles.orders}>
+                {products.map((p: ProductType, index: number) =>
                 <div className={styles.order}>
                     <div className={styles.order_dot}>
-                        <img className={styles.img} src={order1} alt={'1'}/>
+                        <img className={styles.img} src={p.image}/>
                         <div className={styles.dot_quantity}>
-                            <p className={styles.product_count}>2</p>
+                            <p className={styles.product_count}>{p.count}</p>
                         </div>
                     </div>
                 </div>
-                <div className={styles.order}>
-                    <div className={styles.order_dot}>
-                        <img className={styles.img} src={order2} alt={'2'}/>
-                        <div className={styles.dot_quantity}>
-                            <p className={styles.product_count}>1</p>
-                        </div>
-                    </div>
-                </div>
-                <div className={styles.order}>
-                    <div className={styles.order_dot}>
-                        <img className={styles.img} src={order3} alt={'3'}/>
-                        <div className={styles.dot_quantity}>
-                            <p className={styles.product_count}>3</p>
-                        </div>
-                    </div>
-                </div>
+                )}
             </div>
             <div className={styles.information}>
                 <div className={styles.info_row}>

@@ -1,6 +1,5 @@
 .info_box {
     margin: 20px 30px 30px 30px;
-
     font-family: Arial;
     display: flex;
     flex-direction: column;
@@ -68,7 +67,8 @@
     left: 45px;
     top: -8px;
 }
-.product_count{
+
+.product_count {
     padding-top: 4px;
     font-size: 10px;
     color: #FCFCFD;
@@ -168,6 +168,7 @@
         width: 50%;
         font-size: 0.8em;
     }
+
     .dot_quantity {
         left: 65px;
         top: -8px;

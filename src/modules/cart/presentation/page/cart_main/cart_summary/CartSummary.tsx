@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "../cart_summary/cart_summary.module.css";
+import styles from "./cart_summary.module.css";
 
 function CartSummary() {
     return (
@@ -11,7 +11,7 @@ function CartSummary() {
                     <div className={styles.free_data}>$0.00</div>
                 </div>
                 <div className={styles.shipping}>
-                    <div><input className={styles.radio} name='summary' type='radio' value='express'/> Express shipping
+                    <div><input className={styles.radio} name='summary' type='radio' value='express'  checked/> Express shipping
                     </div>
                     <div className={styles.free_data}>+$15.00</div>
                 </div>

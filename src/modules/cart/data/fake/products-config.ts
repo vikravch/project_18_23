@@ -8,18 +8,21 @@ export const products: ProductType[] = [
         title: "Tray Table",
         color: "Black",
         cost: 19.19,
-        image: imgProduct3
+        image: imgProduct3,
+        count: 1
     },
     {
         title: "Tray Table",
         color: "Red",
         cost: 19.19,
-        image: imgProduct2
+        image: imgProduct2,
+        count: 2
     },
     {
         title: "Table lamp",
         color: "Gold",
         cost: 39.00,
-        image: imgProduct1
+        image: imgProduct1,
+        count: 4
     }
 ]

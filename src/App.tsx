@@ -14,6 +14,7 @@ import Blog from "./modules/blog/page/Blog";
 import CartPage from "./modules/cart/presentation/page/cart_main/CartPage";
 import CompletePage from "./modules/cart/presentation/page/complete/CompletePage";
 import CartCheckout from "./modules/cart/presentation/page/cart_checkout/cart_checkout";
+import ContactUs from "./general/components/contactUs/ContactUs";
 
 
 function App() {
@@ -44,9 +45,9 @@ function App() {
                     <Route element={<CartCheckout/>} path={"/cart/checkout"}/>
                     <Route element={<CompletePage/>} path={"/cart/complete"}/>
                     <Route path="/weather" element={<WeatherPage/>}/>
+                    <Route path={'/contactUs'} element={<ContactUs/>}/>
                 </Routes>
             </main>
-
         </div>
 
     );

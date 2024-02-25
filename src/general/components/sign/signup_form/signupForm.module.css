@@ -1,0 +1,152 @@
+.wrapper {
+    box-sizing: border-box;
+    display: flex;
+    padding: 0 32px 0 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19px;
+    width: 375px;
+
+
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: #6C7275;
+}
+
+.form_name {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+
+}
+
+.name {
+    font-family: Poppins, serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: left;
+    color: #141718;
+}
+
+.link_to_sign {
+    font-weight: 600;
+    color: #38CB89;
+}
+
+.link_to_sign:hover {
+    cursor: pointer;
+}
+
+.form_data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding-top: 16px;
+
+}
+
+.form_data_input {
+    width: 311px;
+    border: 0;
+    border-bottom: 1px solid #e8ecef;
+    padding-bottom: 8px;
+    line-height: 26px;
+    font-family: Poppins, serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #6C7275;
+}
+.show_password
+{
+    position: relative;
+}
+.eye_icon
+{
+    position: absolute;
+    left: 285px;
+}
+
+.form_data_input::placeholder {
+    font-family: Inter, serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 26px;
+}
+
+.is_agree {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 12px;
+}
+
+.check_is_agree {
+    border: 2px solid #6C7275;
+    border-radius: 4px;
+    padding: 6px;
+    width: 24px;
+    height: 24px;
+}
+
+.bold_text {
+    font-weight: bold;
+    color: #141718;
+}
+
+.submit_btn {
+    border-radius: 8px;
+    padding: 10px 40px;
+    width: 311px;
+    height: 48px;
+    background: #141718;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .wrapper{
+        width: 456px;
+        height: 520px;
+        margin: 220px 160px 340px 88px;
+        background-color: #FEFEFE;
+        padding: 0;
+    }
+    .form_name {
+        margin-top: 0;
+    }
+
+    .form_data {
+        width: 456px;
+    }
+    .form_data_input {
+        width: 456px;
+    }
+    .submit_btn {
+        width: 456px;
+    }
+    .eye_icon
+    {
+        left: 430px;
+    }
+
+}
+
+
+
+
+

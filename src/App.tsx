@@ -15,6 +15,7 @@ import CartPage from "./modules/cart/presentation/page/cart_main/CartPage";
 import CompletePage from "./modules/cart/presentation/page/complete/CompletePage";
 import CartCheckout from "./modules/cart/presentation/page/cart_checkout/cart_checkout";
 import ContactUs from "./general/components/contactUs/ContactUs";
+import SignUp from "./modules/signup_page/presentation/page/SignUp";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     <Route element={<WeatherPage/>}/>
+                    <Route path={'/signup'} element={<SignUp/>}/>
                     <Route path={'/profile'} element={<ProfilePage/>} />
                     <Route path={'/profile/address'} element={<ProfileAddressPage/>} />
                     <Route path={'/profile/orders'} element={<ProfileOrderHistoryPage/>} />

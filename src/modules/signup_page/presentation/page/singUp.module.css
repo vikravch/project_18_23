@@ -1,0 +1,22 @@
+
+.signup_page_wrapper{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+}
+
+@media screen and (min-width: 1440px) {
+    .signup_page_wrapper
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: start;
+        width: 1440px;
+        margin: 0 auto;
+        gap: 0;
+        /*padding: 0 160px 80px 160px;*/
+    }
+}

@@ -7,11 +7,16 @@ const SignupForm = () => {
     const [showPassword, setShowPassword] = useState(false)
     const navigate = useNavigate();
 
+    const handleClickShowPassword = ()=>
+    {
+        setShowPassword(prevState => !prevState)
+    }
+
     return (
         <div className={style.wrapper}>
             <div className={style.form_name}>
                 <div >
-                    <span className={style.name}>Sign up</span>
+                    <span className={style.name}>Sign Up</span>
                 </div>
                 <div>
                     <span>Already have an account? </span>
@@ -30,7 +35,7 @@ const SignupForm = () => {
                 </div>
                 <div className={style.show_password}>
                     <input className={style.form_data_input} type={showPassword?"text":"password"} placeholder={'Password'} name={'password'}/>
-                    <img className={style.eye_icon} src={"/images/sign/eye.svg"} alt={'Show password'} onClick={()=>setShowPassword(!showPassword)}/>
+                    <img className={style.eye_icon} src={"/images/sign/eye.svg"} alt={'Show password'} onClick={handleClickShowPassword}/>
                 </div>
                 <div>
                     <input className={style.check_is_agree} type={"checkbox"} name={'privacyPolicy'} id={'privacyPolicy'}/>

@@ -7,6 +7,12 @@ const SigninForm = () => {
     const [showPassword, setShowPassword] = useState(false)
     const navigate = useNavigate();
 
+    const handleClickShowPassword = ()=>
+    {
+        setShowPassword(prevState => !prevState)
+    }
+
+
     return (
         <div className={style.wrapper}>
             <div className={style.form_name}>
@@ -25,7 +31,7 @@ const SigninForm = () => {
                 <input className={style.form_data_input} type={showPassword ? "text" : "password"}
                        placeholder={'Password'} name={'password'}/>
                 <img className={style.eye_icon} src={"/images/sign/eye.svg"} alt={'Show password'}
-                     onClick={() => setShowPassword(!showPassword)}/>
+                     onClick={handleClickShowPassword}/>
             </div>
             <div>
                 <input className={style.check_is_agree} type={"checkbox"} name={'privacyPolicy'} id={'privacyPolicy'}/>

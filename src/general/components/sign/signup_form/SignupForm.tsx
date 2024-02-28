@@ -1,10 +1,11 @@
 import React, {useState} from 'react';
 import style from './signupForm.module.css'
+import {useNavigate} from "react-router";
 
 const SignupForm = () => {
 
     const [showPassword, setShowPassword] = useState(false)
-
+    const navigate = useNavigate();
 
     return (
         <div className={style.wrapper}>
@@ -14,7 +15,7 @@ const SignupForm = () => {
                 </div>
                 <div>
                     <span>Already have an account? </span>
-                    <span className={style.link_to_sign}> Sign in</span>
+                    <span className={style.link_to_sign} onClick={()=>navigate('/signin')}> Sign in</span>
                 </div>
             </div>
             <div className={style.form_data}>

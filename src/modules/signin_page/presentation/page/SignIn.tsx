@@ -1,15 +1,15 @@
 import React from 'react';
-import style from "./singUp.module.css";
+import style from "./signIn.module.css";
 import SingHeader from "../../../../general/components/sign/sign_header/SingHeader";
-import SignupForm from "../../../../general/components/sign/signup_form/SignupForm";
+import SigninForm from "../../../../general/components/sign/signin_form/SigninForm";
 
-const SignUp = () => {
+const SignIn = () => {
     return (
         <div className={style.sign_page_wrapper}>
             <SingHeader/>
-            <SignupForm/>
+            <SigninForm/>
         </div>
     );
 };
 
-export default SignUp;
+export default SignIn;
